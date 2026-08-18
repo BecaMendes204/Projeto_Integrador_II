@@ -1,32 +1,30 @@
-# GuiaCalouro
+# Sistema de identificação de dificuldades nas disciplinas
 
 ## Sobre o projeto
 
-O **GuiaCalouro** é uma proposta de sistema desenvolvido para auxiliar alunos que estão ingressando em uma escola ou universidade e ainda não conhecem bem o funcionamento da instituição.Nos primeiros dias, é comum que alunos novos tenham dificuldades para encontrar determinados locais, entender os horários das aulas, saber onde ficam setores importantes e conhecer as regras e os procedimentos da instituição. Essas dificuldades podem causar confusão, atrasos e insegurança.Pensando nesse problema, o projeto propõe a criação de um sistema, preferencialmente em formato de aplicativo para celular, que reúna em um único lugar informações importantes para orientar os novos alunos.
+O **Sistema de Identificação de Dificuldades nas Disciplinas** é uma proposta de sistema desenvolvida para auxiliar estudantes e professores na identificação de conteúdos que apresentam maior dificuldade durante o processo de aprendizagem. Em uma turma, nem todos os alunos possuem as mesmas dificuldades. Alguns podem apresentar problemas em determinados conteúdos, enquanto outros conseguem acompanhar a disciplina normalmente. Muitas vezes, essas dificuldades só são percebidas quando o aluno apresenta baixo desempenho em atividades ou avaliações. Pensando nesse problema, o projeto propõe um sistema capaz de coletar e organizar informações sobre as dificuldades dos alunos, permitindo identificar quais conteúdos ou disciplinas apresentam maiores índices de dificuldade.
 
 ## Problema
 
-Alunos que estão ingressando em uma escola ou universidade podem não conhecer a estrutura e o funcionamento da instituição. Por causa disso, podem ter dificuldades para encontrar salas e locais específicos, consultar horários, identificar professores e turmas, conhecer regras e descobrir informações importantes para sua rotina.
+Professores e instituições podem ter dificuldade para identificar, de maneira rápida e organizada, quais conteúdos estão sendo mais difíceis para os alunos. Quando essas dificuldades não são percebidas inicialmente, o estudante pode acumular dúvidas e apresentar queda no desempenho acadêmico. Além disso, o professor pode não possuir informações suficientes para saber quais assuntos precisam de maior atenção ou revisão.
 
 ## Solução proposta
 
-A solução consiste no desenvolvimento de um sistema/app para celular que funcione como um **guia digital da instituição**.O sistema reunirá informações importantes para que os novos alunos possam consultar tudo de maneira rápida e organizada, reduzindo a necessidade de procurar informações em diferentes lugares ou depender constantemente de outras pessoas.
-Entre as principais informações que poderão estar disponíveis estão:
-- Horário das aulas;
-- Horário de funcionamento da instituição;
-- Horário de almoço e intervalos;
-- Localização de salas e setores;
-- Localização de lugares como biblioteca, secretaria, laboratório e refeitório;
-- Informações sobre professores;
-- Informações sobre turmas;
-- Regras da instituição;
-- Avisos e informações importantes;
-- Contatos e informações dos principais setores.
+A solução consiste no desenvolvimento de um sistema que permita aos alunos **informar** quais conteúdos estão apresentando dificuldades. A partir dessas informações, o sistema poderá organizar os dados e apresentar indicadores que auxiliem professores e responsáveis pedagógicos a identificar os conteúdos que precisam de maior atenção.
+O sistema poderá oferecer funcionalidades como:
+- Registro de dificuldades em conteúdos;
+- Consulta das disciplinas;
+- Visualização dos conteúdos com maior índice de dificuldade;
+- Acompanhamento das dificuldades ao longo do período;
+- Identificação de conteúdos que necessitam de atenção;
+- Consulta dos resultados pelos professores;
+- Aplicação de questionários ou formulários;
+- Registro de observações e informações complementares. 
 
   ## Público-alvo
 
-O principal público-alvo do projeto são **alunos recém-ingressados na instituição**, especialmente aqueles que ainda não conhecem sua estrutura, seus horários e seu funcionamento.Apesar de ser pensado principalmente para calouros, o sistema também poderá ser utilizado por alunos de outros períodos que precisem consultar alguma informação da instituição.
+O principal público-alvo do sistema são **alunos e professores da instituição**. Os alunos poderão informar quais disciplinas ou conteúdos estão apresentando dificuldades, contribuindo para que a instituição tenha uma visão mais clara das necessidades da turma. Já os professores poderão consultar os resultados e identificar quais conteúdos apresentam maior dificuldade entre os alunos, utilizando essas informações como apoio para o planejamento de revisões e atividades.
 
 ## Objetivos
 
-O objetivo principal do GuiaCalouro é **facilitar a adaptação dos novos alunos à instituição**, disponibilizando informações importantes de maneira simples, rápida e organizada.Com isso, espera-se diminuir a confusão e as dificuldades enfrentadas pelos alunos durante os primeiros dias de aula.
+O principal objetivo do sistema é facilitar a identificação de dificuldades de aprendizagem nas disciplinas, permitindo que problemas sejam percebidos antes que causem impactos maiores no desempenho dos estudantes. Com isso, espera-se identificar conteúdos que apresentam maior dificuldade, auxiliar professores no planejamento das aulas, permitir que os alunos expressem suas dificuldades, facilitar o acompanhamento das dificuldades, apoiar a criação de estratégias de revisão e contribuir para a melhoria do processo de aprendizagem.
