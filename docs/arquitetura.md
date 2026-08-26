@@ -26,6 +26,8 @@ O administrador será responsável pelo gerenciamento de usuários, disciplinas,
 
 O fluxo representa as principais ações realizadas pelos usuários de acordo com seus perfis.
 
+![Fluxograma do sistema](fluxograma_sistema.drawio.png)
+
 ## 4. Modelagem de dados
 
 A modelagem considera as principais informações utilizadas pelo sistema:
@@ -37,6 +39,8 @@ A modelagem considera as principais informações utilizadas pelo sistema:
 
 As entidades estão relacionadas de forma a permitir que os registros de dificuldade sejam associados aos alunos e aos conteúdos das disciplinas.
 
+![Modelo de dados](modelo_dados.drawio.png)
+
 ## 5. Arquitetura inicial
 
 A arquitetura inicial foi organizada em camadas:
@@ -46,6 +50,8 @@ A arquitetura inicial foi organizada em camadas:
 - Banco de dados.
 
 A interface será responsável pela interação com os usuários. As regras do sistema serão responsáveis pelo processamento das informações e pelo controle das funcionalidades. O banco de dados armazenará as informações dos usuários, disciplinas, conteúdos e dificuldades.
+
+![Arquitetura inicial do sistema](arquitetura_inicial.drawio.png)
 
 ## 6. Protótipos
 
