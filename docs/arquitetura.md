@@ -55,15 +55,7 @@ A interface será responsável pela interação com os usuários. As regras do s
 
 ## 6. Protótipos
 
-Foram desenvolvidos protótipos das principais telas do sistema, considerando os três perfis de usuários.
-
-As telas desenvolvidas são:
-
-- Login;
-- Área do aluno;
-- Registro de dificuldade;
-- Painel do professor;
-- Painel administrativo.
+Foi elaborado um protótipo inicial da interface principal do sistema, representando o processo de registro de uma dificuldade pelo aluno. O protótipo apresenta os principais campos necessários para o registro, como disciplina, conteúdo, nível de dificuldade e descrição.
 
 ## 7. Relação com os requisitos
 
