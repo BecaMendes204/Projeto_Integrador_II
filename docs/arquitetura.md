@@ -64,3 +64,6 @@ A modelagem foi desenvolvida com base nos requisitos definidos na Etapa 1, espec
 ## 8. Considerações finais
 
 A modelagem apresentada representa uma versão inicial da solução. Os elementos poderão ser aprimorados durante as próximas etapas do desenvolvimento do projeto.
+
+
+- **Link para o Trello:** https://trello.com/b/AdWkJizM/sistema-de-identificacao-de-dificuldades
