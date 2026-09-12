@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Professor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1>Área do Professor</h1>
+    <button id="btn-sair">Sair</button>
+  </header>
+
+  <main>
+    <section class="cartao">
+      <h2>Indicadores</h2>
+      <p>Total de dificuldades registradas: <strong id="total-dificuldades">0</strong></p>
+      <p>Disciplina com mais dificuldades: <strong id="disciplina-top">-</strong></p>
+      <p>Conteúdo com mais dificuldades: <strong id="conteudo-top">-</strong></p>
+    </section>
+
+    <section class="cartao">
+      <h2>Registros dos alunos</h2>
+
+      <label for="filtro-disciplina">Filtrar por disciplina:</label>
+      <select id="filtro-disciplina">
+        <option value="todas">Todas</option>
+      </select>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Disciplina</th>
+            <th>Conteúdo</th>
+            <th>Nível</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody id="corpo-tabela"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script type="module" src="js/professor.js"></script>
+</body>
+</html>

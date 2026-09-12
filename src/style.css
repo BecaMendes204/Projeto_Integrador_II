@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* ---------- LOGIN ---------- */
+.caixa-login {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.caixa-login h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.erro {
+  color: #c0392b;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ---------- FORMULÁRIOS (GERAL) ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+input, select, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #2d6a4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1b4332;
+}
+
+/* ---------- CABEÇALHO (ALUNO / PROFESSOR) ---------- */
+.topo {
+  background-color: #2d6a4f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.topo button {
+  background-color: white;
+  color: #2d6a4f;
+}
+
+/* ---------- CONTEÚDO ---------- */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.cartao {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ---------- REGISTROS DO ALUNO ---------- */
+.registro {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.registro button {
+  margin-right: 8px;
+  margin-top: 8px;
+  width: auto;
+  display: inline-block;
+}
+
+/* ---------- TABELA (PROFESSOR) ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #e9f5ee;
+}
+
+/* ---------- RESPONSIVIDADE (celular / tablet) ---------- */
+@media (max-width: 600px) {
+  .topo {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  table, thead, tbody, th, td, tr {
+    font-size: 12px;
+  }
+}
