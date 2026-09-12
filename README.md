@@ -28,3 +28,62 @@ O principal público-alvo do sistema são **alunos e professores da instituiçã
 ## Objetivos
 
 O principal objetivo do sistema é facilitar a identificação de dificuldades de aprendizagem nas disciplinas, permitindo que problemas sejam percebidos antes que causem impactos maiores no desempenho dos estudantes. Com isso, espera-se identificar conteúdos que apresentam maior dificuldade, auxiliar professores no planejamento das aulas, permitir que os alunos expressem suas dificuldades, facilitar o acompanhamento das dificuldades, apoiar a criação de estratégias de revisão e contribuir para a melhoria do processo de aprendizagem.
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript puro (sem frameworks)
+- Firebase Authentication (login por e-mail/senha)
+- Firebase Firestore (banco de dados)
+
+## Como executar o projeto
+
+1. Clone este repositório.
+2. Abra a pasta `src/` no VS Code.
+3. Instale a extensão **Live Server** (se ainda não tiver).
+4. Clique com o botão direito em `index.html` → **Open with Live Server**.
+5. Faça login com um dos usuários de teste:
+   - Aluno: `aluno.teste@gmail.com`
+   - Professor: `professor.teste@gmail.com`
+
+> O projeto usa o Firebase já configurado em `src/js/firebase.js`. Não é necessário instalar nada com npm/Node.js.
+
+## Funcionalidades
+
+**Aluno**
+- Registrar uma dificuldade (disciplina, conteúdo, nível, descrição)
+- Visualizar seus próprios registros
+- Editar e excluir registros
+
+**Professor**
+- Visualizar todos os registros feitos pelos alunos
+- Filtrar registros por disciplina
+- Visualizar indicadores: total de dificuldades, disciplina e conteúdo com mais dificuldades
+
+## Estrutura do projeto
+
+```
+src/
+├── index.html        (login)
+├── aluno.html         (área do aluno)
+├── professor.html     (área do professor)
+├── css/
+│   └── style.css
+└── js/
+    ├── firebase.js    (conexão com o Firebase)
+    ├── login.js
+    ├── aluno.js
+    └── professor.js
+
+docs/
+├── requisitos.md      (Etapa 1)
+├── arquitetura.md     (Etapa 2)
+└── testes.md          (Etapa 3)
+```
+
+## Resultados finais
+
+- Sistema funcional com login, registro de dificuldades, consulta, edição, exclusão e indicadores.
+- Testes registrados em `docs/testes.md`.
+- Release `v1.0.0` publicada com a versão final do sistema.
