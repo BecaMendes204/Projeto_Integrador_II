@@ -38,14 +38,16 @@ O principal objetivo do sistema é facilitar a identificação de dificuldades d
 - Firebase Firestore (banco de dados)
 
 ## Como executar o projeto
+O site já está publicado e pode ser acessado pelo link: https://becamendes204.github.io/Projeto_Integrador_II/
 
+### Executando localmente
 1. Clone este repositório.
 2. Abra a pasta `src/` no VS Code.
 3. Instale a extensão **Live Server** (se ainda não tiver).
 4. Clique com o botão direito em `index.html` → **Open with Live Server**.
 5. Faça login com um dos usuários de teste:
-   - Aluno: `aluno.teste@gmail.com`
-   - Professor: `professor.teste@gmail.com`
+   - Aluno: `aluno.teste@gmail.com`; Senha: `12345678`
+   - Professor: `professor.teste@gmail.com` Senha: `87654321`
 
 > O projeto usa o Firebase já configurado em `src/js/firebase.js`. Não é necessário instalar nada com npm/Node.js.
 
